@@ -7,7 +7,7 @@ def speak_to_grandma( phrase ="I LOVE YOU GRANDMA!")
    else
    return "NO, NOT SINCE 1938!"
  end
-  
+
 end
 # Write a speak_to_grandma method.
 
