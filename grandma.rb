@@ -1,10 +1,11 @@
 def speak_to_grandma phrase
-    if "#{phrase}" == "I LOVE YOU GRANDMA!"
+    if phrase == "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN!"
-   elsif phrase == "It's you Granma"
+   elsif
+      phrase == "It's you Granma"
     puts "HUH?! SPEAK UP, SONNY!"
-  end
-else phrase == "Do you do?"
+  else
+     phrase == "Do you do?"
    puts "NO, NOT SINCE 1938!"
  end
 
