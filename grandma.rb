@@ -2,8 +2,9 @@ def speak_to_grandma( phrase ="I LOVE YOU GRANDMA!")
     if "#{phrase}"
     return "HUH?! SPEAK UP, SONNY!"
     end
-    if "#{phrase}"
-    puts "I LOVE YOU TOO PUMPKIN!"
+  elsif "#{phrase}"
+    return "I LOVE YOU TOO PUMPKIN!"
+  end
    else
    return "NO, NOT SINCE 1938!"
 
