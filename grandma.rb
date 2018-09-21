@@ -3,11 +3,10 @@ def speak_to_grandma( phrase ="I LOVE YOU GRANDMA!")
     return "HUH?! SPEAK UP, SONNY!"
     end
     puts "I LOVE YOU TOO PUMPKIN!"
-    end
    else
    return "NO, NOT SINCE 1938!"
  end
-
+  
 end
 # Write a speak_to_grandma method.
 
