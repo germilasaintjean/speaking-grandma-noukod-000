@@ -3,7 +3,7 @@ def speak_to_grandma phrase
       return "I LOVE YOU TOO PUMPKIN!"
    elsif
       "#{phrase}" == "It's you Granma"
-      puts "HUH?! SPEAK UP, SONNY!"
+      return "HUH?! SPEAK UP, SONNY!"
    else
       phrase =="Do you do?"
      puts "NO, NOT SINCE 1938!"
