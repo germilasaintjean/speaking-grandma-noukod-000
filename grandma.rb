@@ -7,7 +7,7 @@ def speak_to_grandma phrase
     end
    else
       "#{phrase}" == "Do you do?"
-     puts "NO, NOT SINCE 1938!"
+     return "NO, NOT SINCE 1938!"
    end
 end
 # Write a speak_to_grandma method.
