@@ -1,6 +1,6 @@
 def speak_to_grandma phrase
-    if "#{phrase}" =="I LOVE YOU GRANDMA!"
-      puts "I LOVE YOU TOO PUMPKIN!"
+    if "#{phrase}" == "I LOVE YOU GRANDMA!"
+      return "I LOVE YOU TOO PUMPKIN!"
    elsif
       phrase =="It's you Granma"
       puts "HUH?! SPEAK UP, SONNY!"
