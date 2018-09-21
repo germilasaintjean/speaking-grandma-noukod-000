@@ -1,11 +1,11 @@
-def speak_to_grandma( phrase ="I LOVE YOU GRANDMA!")
-    if "#{phrase}"
+def speak_to_grandma phrase
+    if "#{phrase}" == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
   end
-elsif "#{phrase}" == "It's you Granma"
+elsif phrase == "It's you Granma"
     return "HUH?! SPEAK UP, SONNY!"
   end
-else "#{phrase}" == "Do you do?"
+else phrase == "Do you do?"
    return "NO, NOT SINCE 1938!"
  end
 
