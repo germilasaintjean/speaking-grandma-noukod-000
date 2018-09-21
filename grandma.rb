@@ -4,8 +4,9 @@ def speak_to_grandma phrase
    elsif
       "#{phrase}" == "It's you Granma"
       return "HUH?! SPEAK UP, SONNY!"
+    end
    else
-      phrase =="Do you do?"
+      "#{phrase}" == "Do you do?"
      puts "NO, NOT SINCE 1938!"
    end
 end
